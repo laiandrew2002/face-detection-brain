@@ -2,6 +2,7 @@
   "name": "facedetectionbrain",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://laiandrew2002.github.io/face-detection-brain/",
   "dependencies": {
     "clarifai": "^2.8.1",
     "gh-pages": "^2.0.1",
@@ -16,6 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }
