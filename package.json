@@ -5,7 +5,6 @@
   "homepage": "https://laiandrew2002.github.io/face-detection-brain/",
   "dependencies": {
     "clarifai": "^2.8.1",
-    "gh-pages": "^2.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-particles-js": "^2.3.0",
@@ -20,5 +19,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
